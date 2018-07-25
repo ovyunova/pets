@@ -1,0 +1,463 @@
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Italic.ttf") format("truetype");
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Fira Sans";
+	src: url("../fonts/FiraSans-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+body {
+	background-color: #ede9e0;
+	margin: 0;
+}
+
+.wrapper {
+	background-image: url(../images/pets-main-image-dog.png);
+	background-repeat: no-repeat;
+	width: 1180px;
+	margin: 0 auto;
+	background-position: 10% 0;
+}
+
+.pets-header-phone {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+    margin-top: -34px;
+    margin-left: 900px;
+}
+
+ .pets-header-phone-link {
+ 	text-decoration: none;
+ 	font-size: 16px;
+ 	color: #510fad;
+ }
+
+.pets-header-logo {
+	margin: 20px 0 0 100px;
+}
+
+.pets-header-nav {
+	margin-left: 377px;
+	margin-top: -60px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.pets-nav-list {
+	margin-left: 0px ;
+}
+
+.pets-nav-item {
+	display: inline-block;
+	padding: 0 25px 0 0;
+}
+
+.pets-nav-link {
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size: 16px;
+ 	text-decoration: none;
+ 	color: #202020;
+}
+
+.pets-main {
+	padding: 50px 0 150px 0;
+}
+
+
+.pets-main-block {
+	margin-left: 420px;
+}
+
+.pets-main-title {
+	width: 600px;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 48px;
+	margin: 100px 0 40px 0;
+	line-height: 60px;
+	letter-spacing: 0px;
+}
+
+.pets-main-text {
+
+}
+
+.about-title-block {
+	width: 1020px;
+	margin: 0 auto;
+	background-image: url(../images/backround_shape.png);
+	background-repeat: no-repeat;
+	padding: 145px 0 225px 0;
+}
+
+.about-title-header {
+	padding-left: 350px;
+}
+
+.about-title {
+	
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 36px;
+	line-height: 40px;
+	letter-spacing: 5px; 
+	color: #fff;
+}
+
+.about-title-subline {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #b8adc8;
+}
+
+.about-image-block {
+	padding: 60px 0 0 40px;
+	display: flex;
+}
+
+.about-image-block-col {
+
+}
+
+.about-image-item {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 40px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+.about-image {
+	border-radius: 10px;
+	box-shadow: 1px 1px 50px #202020;
+}
+.about-image-p {
+	margin-top: 40px;
+}
+
+.about-image-link {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 2px; 
+	color: #ffec00; 
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 40px;
+	position: relative;
+	display: inline-block;
+
+}
+.about-image-link:hover {
+	color: #d5d1ca;
+}
+.about-image-link:after {
+	content: "";
+	background: url(../images/sprite-pets.png) no-repeat;
+	width: 20px;
+    height: 14px;
+    background-position: -50px -10px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.about-image-link:hover:after {
+	background-position: -20px -10px;
+}
+.yellow-arrow {
+	background: url(../images/sprite-pets.png) no-repeat;
+	width: 20px;
+    height: 14px;
+    background-position: -50px -10px;
+}
+
+.our-dogs {
+	width: 940px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+.our-dogs-title {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 36px;
+	line-height: 30px;
+	letter-spacing: 0.5; 
+	color: #202020; 
+	padding-left: 320px;
+}
+
+.our-dogs-group-title {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0.5; 
+	color: #202020; 
+}
+
+.our-dogs-container {
+	display: flex;
+}
+.our-dogs-group {
+	width: 50%;
+	padding-left: 10px;
+}
+
+.our-dogs-group-image {
+	border-radius: 70px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.our-dog-text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	color: #737274;
+	padding-right: 25px;
+	padding-bottom: 10px;
+}
+
+.our-dogs-group-link {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 30px;
+	letter-spacing: 0px; 
+	color: #510fad;
+}	
+.comment {
+	width: 940px;
+	margin: 150px;
+}
+.comment-block {
+	display: flex;
+}
+.comment-column-1 {
+	width: 60%;
+}
+.comment-column-2 {
+	width: 40%;
+}
+.comment-column-3 {
+	margin-left: 464px;
+	margin-top: 15px; 
+}
+
+.comment-title {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 36px;
+	line-height: 30px;
+	letter-spacing: 2px; 
+	color: #202020; 
+	padding-left: 300px;
+	padding-bottom: 50px;
+}
+.comment-text {
+	width: 80%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	color: #202020;
+	/*padding-right: 25px;
+	padding-bottom: 10px;*/
+}
+.comment-column-title {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 2px; 
+	color: #202020; 
+}
+.comment-date {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 30px;
+	letter-spacing: 1px;
+	color: #737274;
+}
+.comment-image {
+	border-radius: 10px;
+	box-shadow: 1px 1px 50px #202020;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.comment-cite {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 30px;
+	letter-spacing: 1px;
+	color: #737274;
+}
+ .comment-cite-link {
+ 	text-decoration: none;
+ 	color: #510fad;
+}
+
+.all-about-pets {
+	background-image: url(../images/backgroun_pattern.png);
+	background-repeat: no-repeat;
+	width: 1020px;
+	margin: 0 auto;
+	padding-bottom: 140px;
+}
+.all-container {
+	display: flex;
+}
+
+.all-container-1 {
+	display: flex;
+	padding: 0 20px 0 0;
+}
+
+.all-column-1 {
+	width: 50%;
+	padding: 120px 0 0 40px;
+}
+
+.all-column-2 {
+	width: 50%;
+}
+ .all-column-3 {
+ 	width: 50%;
+ 	padding: 100px 20px 0 0;
+ }
+
+
+.all-about-pets-title {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 36px;
+	line-height: 20px;
+	letter-spacing: 5px; 
+	color: #fff;
+}
+
+.all-about-pets-text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #b8adc8;
+}
+
+.all-about-pets-social {
+	display: inline-block;
+	padding-top: 20px;
+}
+.all-about-pets-images {
+	background-color: #fff; 
+	border-radius: 10px;
+	padding-bottom: 10px;
+	box-shadow: 1px 1px 50px #202020;
+}
+
+.all-about-pets-images-item {
+	border-radius: 10px 10px 0 0;
+}
+.all-about-pets-images-text {
+	font-family: 'Roboto', sans-serif;
+ 	font-size: 16px;
+ 	line-height: 30px;
+ 	letter-spacing: 2px;
+ 	color: #202020;
+ 	padding-left: 10px;
+}
+
+.all-about-pets-link {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 30px;
+	letter-spacing: 0px; 
+	color: #510fad;
+	padding-left: 10px;
+ }
+
+ .contact {
+ 	width: 1020px;
+	margin: 0 auto;
+	padding: 100px 40px;
+ }
+.contact-title {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 36px;
+	line-height: 40px;
+	letter-spacing: 0.05em; 
+	color: #202020; 
+	padding-left: 40px;
+	padding-bottom: 30px;
+}
+.contact-column {
+	display: flex;
+	padding-left: 40px;
+}
+.contact-column-info {
+	width: 50%
+}
+.contact-column-title {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	color: #737274;
+}
+.contact-column-subline {
+	font-family: 'Roboto', sans-serif;
+ 	font-size: 16px;
+ 	line-height: 30px;
+ 	color: #202020;
+}
+.footer {
+	width: 1020px;
+	margin: auto 0;
+	padding-left: 80px;
+}
+.footer-list {
+	border-top: 2px solid #d5d1ca;
+	padding-top: 30px;
+	padding-left: 0;
+	margin-left: 40px;
+}
+.footer-item {
+	display: inline;
+}
+.footer-link {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+ 	font-size: 16px;
+ 	line-height: 30px;
+ 	color: #737274;
+ 	padding-right: 30px;
+}
+.footer-social {
+	margin-left: 920px;
+	margin-top: -40px;
+}
+
+
+
+
+
+
+
+
