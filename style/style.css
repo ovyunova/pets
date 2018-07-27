@@ -289,15 +289,19 @@ body {
 	width: 940px;
 	margin: 150px;
 }
+
 .comment-block {
 	display: flex;
 }
+
 .comment-column-1 {
 	width: 60%;
 }
+
 .comment-column-2 {
 	width: 40%;
 }
+
 .comment-column-3 {
 	margin-left: 464px;
 	margin-top: 15px; 
@@ -312,6 +316,7 @@ body {
 	padding-left: 300px;
 	padding-bottom: 50px;
 }
+
 .comment-text {
 	width: 80%;
 	font-family: 'Roboto', sans-serif;
@@ -321,6 +326,7 @@ body {
 	/*padding-right: 25px;
 	padding-bottom: 10px;*/
 }
+
 .comment-column-title {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 24px;
@@ -328,6 +334,7 @@ body {
 	letter-spacing: 0.05em;; 
 	color: #202020; 
 }
+
 .comment-date {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -336,6 +343,7 @@ body {
 	letter-spacing: 0.05em;;
 	color: #727173;
 }
+
 .comment-image {
 	border-radius: 10px;
 	box-shadow: 1px 1px 50px #202020;
@@ -352,10 +360,14 @@ body {
 	letter-spacing: 0.05em;;
 	color: #727173;
 }
+
  .comment-cite-link {
  	text-decoration: none;
  	color: #510fad;
+}
 
+.comment-cite-link:hover {
+	color: #727173;
 }
 
 .all-about-pets {
@@ -365,6 +377,7 @@ body {
 	margin: 0 auto;
 	padding-bottom: 140px;
 }
+
 .all-container {
 	display: flex;
 }
@@ -382,6 +395,7 @@ body {
 .all-column-2 {
 	width: 50%;
 }
+
  .all-column-3 {
  	width: 50%;
  	padding: 100px 20px 0 0;
@@ -408,6 +422,7 @@ body {
 	display: inline-block;
 	padding-top: 20px;
 }
+
 .all-about-pets-images {
 	background-color: #fff; 
 	border-radius: 10px;
@@ -418,6 +433,7 @@ body {
 .all-about-pets-images-item {
 	border-radius: 10px 10px 0 0;
 }
+
 .all-about-pets-images-text {
 	font-family: 'Roboto', sans-serif;
  	font-size: 16px;
@@ -427,6 +443,23 @@ body {
  	padding-left: 10px;
 }
 
+.all-about-social {
+	display: inline-block;
+	background: url(../images/spritesheet.png) no-repeat 0 0;
+	width: 26px;
+	height: 26px;
+	padding-left: 5px;
+}
+
+.vko { background-position: -132px -77px;  }
+.vko:hover { background-position: -5px -149px; }
+
+.fbo { background-position: -5px -113px;  }
+.fbo:hover { background-position: -96px -41px; }
+
+.inst { background-position: -143px -5px;  }
+.inst:hover { background-position: -77px -113px; }
+
 .all-about-pets-link {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 14px;
@@ -434,7 +467,31 @@ body {
 	line-height: 30px;
 	color: #510fad;
 	padding-left: 10px;
+	padding-right: 30px;
+	position: relative;
+	display: inline-block;
  }
+
+.all-about-pets-link:hover {
+	color: #727173;
+}
+
+.all-about-pets-link:after {
+	content: "";
+	background: url(../images/spritesheet.png) no-repeat;
+	width: 20px;
+    height: 14px;
+    background-position: -5px -5px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-60%);
+}
+
+.all-about-pets-link:hover:after {
+	background-position: -65px -5px;
+}
 
  .contact {
  	width: 1020px;
@@ -492,13 +549,27 @@ body {
  	padding-right: 30px;
 }
 .footer-social {
-	margin-left: 920px;
-	margin-top: -40px;
+	margin-left: 919px;
+	margin-top: -45px;
+	padding-right: 0;
 }
 
+.footer-social-icon {
+	display: inline-block;
+	background: url(../images/spritesheet.png) no-repeat 0 0;
+	width: 26px;
+	height: 26px;
+	padding-right: 5px;
+}
 
+.vk { background-position: -132px -41px;  }
+.vk:hover { background-position: -149px -113px; }
 
+.fb { background-position: -107px -5px;  }
+.fb:hover { background-position: -96px -77px; }
 
+.insta { background-position: -41px -113px;  }
+.insta:hover { background-position: -113px -113px; }
 
 
 
