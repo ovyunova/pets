@@ -442,6 +442,9 @@ body {
 	background-color: #fff; 
 	border-radius: 10px;
 	padding-bottom: 10px;
+	box-shadow: 1px 1px 20px #202020;
+}
+.all-about-pets-images:hover {
 	box-shadow: 1px 1px 50px #202020;
 }
 
