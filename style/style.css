@@ -55,7 +55,6 @@ body {
 .pets-header-nav {
 	margin-left: 377px;
 	margin-top: -60px;
-	font-family: 'Roboto', sans-serif;
 }
 
 .pets-nav-list {
@@ -89,11 +88,30 @@ body {
 	font-size: 48px;
 	margin: 100px 0 40px 0;
 	line-height: 60px;
-	letter-spacing: 0px;
 }
 
 .pets-main-text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.05em;
+	color: #727173;
+	padding-left: 10px;
+	position: relative;
+	display: inline-block;
+}
 
+.pets-main-text:before {
+	content: "";
+	background: url(../images/spritesheet.png) no-repeat;
+	width: 2px;
+    height: 20px;
+    background-position: -95px -5px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -18%;
+    transform: translateY(10%);
 }
 
 .about-title-block {
@@ -113,7 +131,7 @@ body {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 36px;
 	line-height: 40px;
-	letter-spacing: 5px; 
+	letter-spacing: 0.05em; 
 	color: #fff;
 }
 
@@ -121,7 +139,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 30px;
-	letter-spacing: 0px;
+	letter-spacing: 0.05em;
 	color: #b8adc8;
 }
 
@@ -137,8 +155,7 @@ body {
 .about-image-item {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	line-height: 40px;
-	letter-spacing: 2px;
+	line-height: 30px;
 	color: #fff;
 }
 
@@ -154,7 +171,7 @@ body {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 16px;
 	line-height: 30px;
-	letter-spacing: 2px; 
+	letter-spacing: 0.05em;; 
 	color: #ffec00; 
 	text-decoration: none;
 	padding-left: 20px;
@@ -164,29 +181,31 @@ body {
 
 }
 .about-image-link:hover {
-	color: #d5d1ca;
+	color: #727173;
 }
 .about-image-link:after {
 	content: "";
-	background: url(../images/sprite-pets.png) no-repeat;
+	background: url(../images/spritesheet.png) no-repeat;
 	width: 20px;
     height: 14px;
-    background-position: -50px -10px;
+    background-position: -35px -5px;
     display: inline-block;
     position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
 }
+
 .about-image-link:hover:after {
-	background-position: -20px -10px;
+	background-position: -65px -5px;
 }
-.yellow-arrow {
-	background: url(../images/sprite-pets.png) no-repeat;
+
+/*.yellow-arrow {
+	background: url(../images/spritesheet.png) no-repeat;
 	width: 20px;
     height: 14px;
-    background-position: -50px -10px;
-}
+    background-position: -65px -5px;
+}*/
 
 .our-dogs {
 	width: 940px;
@@ -197,8 +216,8 @@ body {
 .our-dogs-title {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 36px;
-	line-height: 30px;
-	letter-spacing: 0.5; 
+	line-height: 40px;
+	letter-spacing: 0.05em;; 
 	color: #202020; 
 	padding-left: 320px;
 }
@@ -206,8 +225,8 @@ body {
 .our-dogs-group-title {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 24px;
-	line-height: 30px;
-	letter-spacing: 0.5; 
+	line-height: 40px;
+	letter-spacing: 0.05em; 
 	color: #202020; 
 }
 
@@ -223,14 +242,14 @@ body {
 	border-radius: 70px;
 	float: left;
 	margin-right: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 }
 
 .our-dog-text {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 30px;
-	color: #737274;
+	color: #727173;
 	padding-right: 25px;
 	padding-bottom: 10px;
 }
@@ -240,9 +259,32 @@ body {
 	font-size: 14px;
 	text-decoration: none;
 	line-height: 30px;
-	letter-spacing: 0px; 
+	letter-spacing: 0.05em;; 
 	color: #510fad;
+	position: relative;
+	display: inline-block;
+	padding-right: 30px;
 }	
+.our-dogs-group-link:hover {
+	color: #727173;
+}
+.our-dogs-group-link:after {
+	content: "";
+	background: url(../images/spritesheet.png) no-repeat;
+	width: 20px;
+    height: 14px;
+    background-position: -5px -5px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-60%);
+}
+
+.our-dogs-group-link:hover:after {
+	background-position: -65px -5px;
+}
+
 .comment {
 	width: 940px;
 	margin: 150px;
@@ -264,8 +306,8 @@ body {
 .comment-title {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 36px;
-	line-height: 30px;
-	letter-spacing: 2px; 
+	line-height: 40px;
+	letter-spacing: 0.05em;; 
 	color: #202020; 
 	padding-left: 300px;
 	padding-bottom: 50px;
@@ -283,7 +325,7 @@ body {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 24px;
 	line-height: 30px;
-	letter-spacing: 2px; 
+	letter-spacing: 0.05em;; 
 	color: #202020; 
 }
 .comment-date {
@@ -291,8 +333,8 @@ body {
 	font-size: 16px;
 	font-style: italic;
 	line-height: 30px;
-	letter-spacing: 1px;
-	color: #737274;
+	letter-spacing: 0.05em;;
+	color: #727173;
 }
 .comment-image {
 	border-radius: 10px;
@@ -307,12 +349,13 @@ body {
 	font-size: 16px;
 	font-style: italic;
 	line-height: 30px;
-	letter-spacing: 1px;
-	color: #737274;
+	letter-spacing: 0.05em;;
+	color: #727173;
 }
  .comment-cite-link {
  	text-decoration: none;
  	color: #510fad;
+
 }
 
 .all-about-pets {
@@ -349,7 +392,7 @@ body {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 36px;
 	line-height: 20px;
-	letter-spacing: 5px; 
+	letter-spacing: 0.05em;; 
 	color: #fff;
 }
 
@@ -357,7 +400,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 30px;
-	letter-spacing: 0px;
+	letter-spacing: 0.05em;;
 	color: #b8adc8;
 }
 
@@ -379,7 +422,7 @@ body {
 	font-family: 'Roboto', sans-serif;
  	font-size: 16px;
  	line-height: 30px;
- 	letter-spacing: 2px;
+ 	letter-spacing: 0.05em;;
  	color: #202020;
  	padding-left: 10px;
 }
@@ -389,7 +432,6 @@ body {
 	font-size: 14px;
 	text-decoration: none;
 	line-height: 30px;
-	letter-spacing: 0px; 
 	color: #510fad;
 	padding-left: 10px;
  }
@@ -419,7 +461,7 @@ body {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 16px;
 	line-height: 30px;
-	color: #737274;
+	color: #727173;
 }
 .contact-column-subline {
 	font-family: 'Roboto', sans-serif;
@@ -446,7 +488,7 @@ body {
 	font-family: 'Roboto', sans-serif;
  	font-size: 16px;
  	line-height: 30px;
- 	color: #737274;
+ 	color: #727173;
  	padding-right: 30px;
 }
 .footer-social {
