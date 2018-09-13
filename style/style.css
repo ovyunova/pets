@@ -567,6 +567,11 @@ body {
  	line-height: 30px;
  	color: #202020;
 }
+.contact-column-subline a {
+	text-decoration: none;
+	color: #510fad;
+}
+
 .footer {
 	width: 1020px;
 	margin: auto 0;
