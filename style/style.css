@@ -32,7 +32,12 @@ body {
 	background-repeat: no-repeat;
 	width: 1180px;
 	margin: 0 auto;
-	background-position: 10% 0;
+	background-position: 25px 0;
+}
+
+.pets-header {
+	position: fixed;
+	z-index: 5;
 }
 
 .pets-header-phone {
